@@ -1,42 +1,47 @@
- header{
+header{
 	 
-	 font-size: 50;
-	 background-color: #EE4E34;
-	 
- }
- 
- 
- 
- body{
-	 
-	 margin:0;
-	 background-color:#FCEDDA;
-	 background-size: cover;
-     background-repeat: no-repeat;
-	 background-image:url('images/MainPageDone.jpg');
-	 max-width: 100%;
- }
- 
- 
- .navbar{
-	 
-	display: flex;
-	flex-direction: row-reverse;
-	font-size: large
+	font-size: 50;
+	background-color: #EE4E34;
+	
 }
- 
+
+
+
+
+.navbar{
+	
+   display: flex;
+   flex-direction: row-reverse;
+   font-size: large
+}
+
 li{
-	 margin-left: 30px;
-	 margin-right: 20px;
-	 list-style: none;
-	 
-	 
- }
- 
- li > a {
-	 
-	 color: black;
-	 font-size:35;
-	 text-decoration: none;
-	 
- }
+	margin-left: 30px;
+	margin-right: 20px;
+	list-style: none;
+	
+	
+}
+
+li > a {
+	
+	color: black;
+	font-size:35;
+	text-decoration: none;
+	
+}
+.img{
+	   
+   
+   position: relative;
+   right: 5%;
+   
+   }
+   
+   .image-container{
+	   
+   
+   position: relative;
+   right: 5%;	
+   
+   }
