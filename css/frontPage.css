@@ -1,47 +1,32 @@
-header{
-	 
-	font-size: 50;
-	background-color: #EE4E34;
-	
+header {
+  font-size: 50;
+  background-color: #ee4e34;
+  min-width: 102vw;
 }
 
-
-
-
-.navbar{
-	
-   display: flex;
-   flex-direction: row-reverse;
-   font-size: large
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: large;
 }
 
-li{
-	margin-left: 30px;
-	margin-right: 20px;
-	list-style: none;
-	
-	
+li {
+  margin-left: 30px;
+  margin-right: 20px;
+  list-style: none;
 }
 
 li > a {
-	
-	color: black;
-	font-size:35;
-	text-decoration: none;
-	
+  color: black;
+  font-size: 35;
+  text-decoration: none;
 }
-.img{
-	   
-   
-   position: relative;
-   right: 5%;
-   
-   }
-   
-   .image-container{
-	   
-   
-   position: relative;
-   right: 5%;	
-   
-   }
+.img {
+  position: relative;
+  right: 5%;
+}
+
+.image-container {
+  position: relative;
+  right: 5%;
+}

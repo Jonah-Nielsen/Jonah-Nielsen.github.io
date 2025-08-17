@@ -1,98 +1,83 @@
- header{
-	 
-	 font-size: 50;
-	 background-color: #EE4E34;
-	 
- }
- 
- h1{
-     margin: 20px;
-     font-size: 48px;
- } 
- 
- body{
-	 
-	 margin:0;
-	 background-color:#FCEDDA;
-	 
-	 
- }
- 
- 
- .navbar{
-	 
-	 display: flex;
-	 flex-direction: row-reverse;
-	 font-size: large
- }
- 
-li{
-	 margin-left: 30px;
-	 margin-right: 20px;
-	 list-style: none;
-	 
-	 
- }
- 
- li > a {
-	 
-	 color: black;
-	 font-size:35;
-	 text-decoration: none;
-	 
- }
- 
- .image-container {
-        display:flex;
-        margin:0px;
-        
-		justify-content: end;
-		
-		
-    }
-
-    .image-container img{
-        width:100%;
-        height:auto;
-		margin-left:60px;
-		
-    }
-
-    p{
-        margin: 20px;
-        font-size: 24px;
-		font-family: Arial;
-		margin-right: 15%;
-		margin-left: 15%;
-    }
-	
- .txt {
-	 
-	 font-size: 32px;
-	 margin-left:40px;
-	 font-family: Arial;
-	 text-align: center;
-	 align-items: center;
-	 
- }
- 
-.buff{
-margin-top: 5%;
-
-}
-@media (max-width: 980px)
-{
-	.txt{
-		font-size: 24px;
-	}
+header {
+  font-size: 50;
+  background-color: #ee4e34;
+  min-width: 102vw;
 }
 
-@media (max-width: 490px)
-{
-	.txt{
-		font-size: 16px;
-	}
-	p{
-        font-size: 14px;
-    }
+h1 {
+  margin: 20px;
+  font-size: 48px;
+}
+
+body {
+  margin: 0;
+  background-color: #fcedda;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: large;
+}
+
+li {
+  margin-left: 30px;
+  margin-right: 20px;
+  list-style: none;
+}
+
+li > a {
+  color: black;
+  font-size: 35;
+  text-decoration: none;
+}
+
+.image-container {
+  display: flex;
+  margin: 0px;
+
+  justify-content: end;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  margin-left: 60px;
+}
+
+p {
+  margin: 20px;
+  font-size: 24px;
+  font-family: Arial;
+  margin-right: 15%;
+  margin-left: 15%;
+  background-color: #ddd1c0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.txt {
+  font-size: 32px;
+  margin-left: 40px;
+  font-family: Arial;
+  text-align: center;
+  align-items: center;
+}
+
+.buff {
+  margin-top: 5%;
+}
+@media (max-width: 980px) {
+  .txt {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 490px) {
+  .txt {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
 }
