@@ -1,7 +1,18 @@
 header {
   font-size: 50;
   background-color: #ee4e34;
-  min-width: 102vw;
+  min-width: 100vw;
+}
+
+body {
+  margin: 0;
+  background-color: #fcedda;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/MainPage.png");
+  background-position: bottom center;
+  min-height: 100vh;
+  max-width: 100%;
 }
 
 .navbar {
@@ -22,6 +33,10 @@ li > a {
   text-decoration: none;
 }
 .img {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
   position: relative;
   right: 5%;
 }
@@ -29,4 +44,51 @@ li > a {
 .image-container {
   position: relative;
   right: 5%;
+  object-fit: fill;
+  width: 100vw;
+}
+
+.txt {
+  margin-left: 30px;
+  font-size: 26px;
+  margin-bottom: 10%;
+}
+
+.img-fluid {
+  max-width: 30%;
+}
+
+/* Small screens */
+@media all and (max-width: 600px) {
+  .image-container {
+    position: relative;
+    left: 0px;
+    justify-items: start;
+  }
+
+  .txt {
+    font-size: 20px;
+  }
+  .img-fluid {
+    max-width: 100%;
+  }
+}
+
+.btn-primary {
+  background-color: #ee4e34;
+  color: black;
+  border: none;
+
+  --bs-btn-bg: #ee4e34;
+  --bs-btn-hover-bg: #db462f;
+  --bs-btn-active-bg: #fa5238;
+  --bs-btn-active-color: black;
+  --bs-btn-active-border-color: transparent;
+  --bs-btn-focus-shadow-rgb: 238, 78, 52;
+}
+
+.btn-primary:focus,
+.btn-primary:focus-visible {
+  outline: none;
+  box-shadow: none;
 }

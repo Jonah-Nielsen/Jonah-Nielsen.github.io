@@ -1,7 +1,7 @@
 header {
   font-size: 50;
   background-color: #ee4e34;
-  min-width: 102vw;
+  min-width: 100vw;
 }
 
 h1 {
@@ -12,6 +12,8 @@ h1 {
 body {
   margin: 0;
   background-color: #fcedda;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -46,9 +48,12 @@ li > a {
 }
 
 p {
-  margin: 20px;
   font-size: 24px;
   font-family: Arial;
+}
+
+.spacer {
+  margin: 20px 20px 0px 20px;
   margin-right: 15%;
   margin-left: 15%;
   background-color: #ddd1c0;
@@ -57,7 +62,7 @@ p {
 }
 
 .txt {
-  font-size: 32px;
+  font-size: 28px;
   margin-left: 40px;
   font-family: Arial;
   text-align: center;

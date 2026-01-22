@@ -1,20 +1,22 @@
 header {
-  font-size: 50;
   background-color: #ee4e34;
-  min-width: 102vw;
+  width: 100%;
 }
 
 h1 {
-  margin: 20px;
+  margin: 5% 2% 2.5% 2%;
   font-size: 48px;
   text-align: center;
-  margin-top: 5%;
-  margin-bottom: 2.5%;
+  border-radius: 8px;
+  background-color: #ee4e34;
+  padding: 1%;
 }
 
 body {
-  margin: 0;
   background-color: #fcedda;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -31,17 +33,17 @@ li {
 
 li > a {
   color: black;
-  font-size: 35;
+  font-size: 35px;
   text-decoration: none;
 }
 
 .image-container {
   display: flex;
-  margin: 20px;
+  margin: 20px 0px;
   font-size: 24px;
   margin-bottom: 5%;
   background-color: #ddd1c0;
-  padding: 1rem;
+  padding: 1%;
   border-radius: 8px;
 }
 

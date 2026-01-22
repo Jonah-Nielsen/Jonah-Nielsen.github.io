@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Jonah Nielsen</title>
@@ -8,19 +8,9 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
     <link rel="stylesheet" href="css/frontPage.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
 
   <header>
@@ -44,9 +34,9 @@
   </header>
 
   <body>
-    <div class="grid">
+    <div class="container-fluid grid">
       <div class="row align-items-end">
-        <div class="col-12 text-right col-12-sm width:50%;">
+        <div class="col-12 text-end">
           <div class="image-container">
             <img src="images/JN.png" alt="Image" class="img-fluid" />
           </div>
@@ -55,9 +45,22 @@
       <div class="row align-items-start">
         <div class="col text-center">
           <div class="txt">
-            <div><b style="font-family: Arial">Hi I'm Jonah Nielsen.</b></div>
+            <div><b style="font-family: Arial">Jonah Nielsen</b></div>
 
-            <div><b style="font-family: Arial">A Software Developer.</b></div>
+            <div>
+              <b style="font-family: Arial">Full-Stack Software Engineer</b>
+            </div>
+            <p>
+              Full-stack software engineer with professional experience in
+              backend
+            </p>
+            <p>
+              and embedded systems and a strong foundation in modern web
+              development.
+            </p>
+            <a href="Projects.html" class="btn btn-primary"
+              >Check out my Projects</a
+            >
           </div>
         </div>
       </div>
@@ -69,40 +72,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
-
-  <style>
-    body {
-      margin: 0;
-      background-color: #fcedda;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-image: url("images/MainPage.png");
-      max-width: 100%;
-    }
-    .txt {
-      margin-left: 30px;
-      font-size: 26px;
-      margin-bottom: 10%;
-    }
-
-    .img-fluid {
-      max-width: 30%;
-    }
-
-    /* Small screens */
-    @media all and (max-width: 600px) {
-      .image-container {
-        position: relative;
-        left: 0px;
-        justify-items: start;
-      }
-
-      .txt {
-        font-size: 20px;
-      }
-      .img-fluid {
-        max-width: 100%;
-      }
-    }
-  </style>
 </html>
